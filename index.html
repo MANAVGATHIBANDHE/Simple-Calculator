@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="theme-toggle cross">
+        <h1>Simple Calculator</h1>
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        <i class="fa-regular fa-circle-xmark"></i>
+      </div>
+      <div id="display" class="display">0</div>
+      <div class="buttons">
+        <button class="button" type="button" data-action="clear">C</button>
+        <button class="button" type="button" data-action="delete">
+          <!--⌫--><i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button class="button" type="button" data-action="operator">%</button>
+        <button class="button" type="button" data-action="operator">/</button>
+        <button class="button" type="button">7</button>
+        <button class="button" type="button">8</button>
+        <button class="button" type="button">9</button>
+        <button class="button" type="button" data-action="operator">*</button>
+        <button class="button" type="button">4</button>
+        <button class="button" type="button">5</button>
+        <button class="button" type="button">6</button>
+        <button class="button" type="button" data-action="operator">-</button>
+        <button class="button" type="button">1</button>
+        <button class="button" type="button">2</button>
+        <button class="button" type="button">3</button>
+        <button class="button" type="button" data-action="operator">+</button>
+        <button class="button" type="button">0</button>
+        <button class="button" type="button">.</button>
+        <button class="button" type="button" data-action="equals">=</button>
+      </div>
+      <p style="text-align: center; margin-top: 20px">
+        @2023 Simple Calculator
+      </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
